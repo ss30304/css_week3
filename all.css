@@ -122,12 +122,8 @@
     margin-bottom: 24px;
 }
 
-.cards li {
-    margin-right: 24px;
-}
-
-.cards li:last-child {
-    margin-right: 0;
+.cards {
+    width: 100%;
 }
 
 .cards li p {
@@ -152,6 +148,7 @@
     color: #000000;
     width: 306px;
     line-height: 24px;
+    text-align: left;
 }
 
 .prodjectList {
@@ -169,10 +166,22 @@
 
 .productCards {
     color: #AA0601;
+    width: 100%;
 }
-
-.productCards ul {}
 
 .productCards img {
     width: 416px;
+    margin-bottom: 8px;
+}
+
+.crossover {
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: bold;
+    color: #AA0601;
+    background: url('');
+}
+
+.crossover h2 {
+    color: #FFFFFF;
 }
