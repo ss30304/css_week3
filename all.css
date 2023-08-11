@@ -1,0 +1,161 @@
+.header {
+    background-color: #AA0601;
+}
+
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.DF {
+    display: flex;
+}
+
+.FDC {
+    flex-direction: column;
+}
+
+.JCSB {
+    justify-content: space-between;
+}
+
+.notoSans {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.Roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.AIC {
+    align-items: center;
+}
+
+.TAR {
+    text-align: right;
+}
+
+.TAC {
+    text-align: center;
+}
+
+.TAL {
+    text-align-last: left;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.nav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nav ul li {
+    margin-right: 64px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.adPhoto {
+    background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 296px;
+    padding-bottom: 296px;
+    text-align: right;
+}
+
+.adLeft {
+    width: 50%;
+}
+
+.adRight {
+    width: 50%;
+    color: #650300;
+}
+
+.adRight p {
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: normal;
+}
+
+.adRight h2 {
+    font-size: 64px;
+    line-height: 96px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.adRight a {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 6px 12px;
+    background-color: #AA0601;
+}
+
+.intro {
+    padding: 80px 312px;
+    background-color: #FBF2F2;
+    color: #650300;
+}
+
+.intro h2 {
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.cards li {
+    margin-right: 24px;
+}
+
+.cards li:last-child {
+    margin-right: 0;
+}
+
+.cards li p {
+    align-items: left;
+}
+
+.cards span {
+    width: 100px;
+    height: 100px;
+    font-size: 84px;
+    margin-bottom: 16px;
+}
+
+.cards h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.cards p {
+    color: #000000;
+    width: 306px;
+    line-height: 24px;
+}
+
+.prodjectList {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #650300;
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: bold;
+}
+
+.prodjectList h2 {
+    margin-bottom: 48px;
+}
+
+.productCards {
+    color: #AA0601;
+}
