@@ -19,6 +19,14 @@
     justify-content: space-between;
 }
 
+.JCFE {
+    justify-content: flex-end;
+}
+
+.AIFE {
+    align-items: flex-end;
+}
+
 .notoSans {
     font-family: 'Noto Sans TC', sans-serif;
 }
@@ -94,8 +102,11 @@
     color: #FFFFFF;
     font-size: 20px;
     line-height: 30px;
-    padding: 6px 12px;
+    text-align: center;
     background-color: #AA0601;
+    width: 104px;
+    padding: 6px 12px;
+    box-sizing: border-box;
 }
 
 .intro {
@@ -158,4 +169,10 @@
 
 .productCards {
     color: #AA0601;
+}
+
+.productCards ul {}
+
+.productCards img {
+    width: 416px;
 }
