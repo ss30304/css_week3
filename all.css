@@ -4,6 +4,7 @@
 
 .container {
     max-width: 1296px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -118,7 +119,6 @@
 }
 
 .intro {
-    padding: 80px 312px;
     background-color: #FBF2F2;
     color: #650300;
 }
@@ -134,8 +134,12 @@
     width: 100%;
 }
 
-.cards li p {
-    align-items: left;
+.cards ul {
+    width: 100%;
+}
+
+.cards li {
+    width: 306px;
 }
 
 .cards span {
@@ -154,7 +158,6 @@
 
 .cards p {
     color: #000000;
-    width: 306px;
     line-height: 24px;
     text-align: left;
 }
@@ -270,15 +273,19 @@
 
 .form p {
     margin-bottom: 24px;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .form {
-    max-width: 100%;
+    max-width: 636px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .customerForm input {
     /*為什麼寬度不能設100%*/
+    max-width: ;
     width: 636px;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -286,6 +293,11 @@
     color: rgba(0, 0, 0, 0.2);
     margin-bottom: 16px;
     box-sizing: border-box;
+}
+
+.customerForm p {
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .customerForm input:nth-child(8) {
@@ -321,6 +333,10 @@
     border: 0;
 }
 
+textarea {
+    margin-bottom: 16px;
+}
+
 .footer {
     background: #AA0601;
     color: #FFFFFF;
@@ -338,6 +354,7 @@
 
 .footerNav ul li {
     margin-right: 48px;
+    line-height: 24px;
 }
 
 .socialMedia img {
@@ -351,13 +368,29 @@
 .mid {
     border-bottom: 1px solid #FFFFFF;
     margin-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 .mid span {
     margin-right: 16px;
 }
 
-.mid li {
+.mid p {
     font-size: 36px;
     line-height: 54px;
+}
+
+.mid span {
+    text-align: center;
+    font-size: 36px;
+}
+
+.bottomRight li {
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 48px;
+}
+
+.bottomLeft {
+    font-weight: normal;
 }
