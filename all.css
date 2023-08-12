@@ -7,6 +7,14 @@
     margin: 0 auto;
 }
 
+.PT80 {
+    padding-top: 80px;
+}
+
+.PB80 {
+    padding-bottom: 80px;
+}
+
 .DF {
     display: flex;
 }
@@ -152,8 +160,6 @@
 }
 
 .prodjectList {
-    padding-top: 80px;
-    padding-bottom: 80px;
     color: #650300;
     font-size: 48px;
     line-height: 72px;
@@ -179,9 +185,52 @@
     line-height: 72px;
     font-weight: bold;
     color: #AA0601;
-    background: url('');
+    background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .crossover h2 {
     color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+.crossoverCards {
+    width: 100%;
+}
+
+.crossoverCards ul {
+    width: 100%;
+}
+
+.crossoverCards li {
+    width: 50%;
+}
+
+.crossoverCards ul li img {
+    width: 100%;
+}
+
+.crossoverCards h3 {
+    background-color: #FFFFFF;
+}
+
+.feedback h2 {
+    color: #650300;
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.fdCards {
+    width: 100%;
+}
+
+.fbCards li {
+    width: 306px;
+}
+
+.fbCards img {
+    width: 306px;
 }
