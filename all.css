@@ -229,7 +229,6 @@
 
 .fbCards li {
     width: 306px;
-    line-height: 24px;
 }
 
 .fbCards img {
@@ -244,6 +243,7 @@
     border: 1px solid #DEE2E6;
     box-shadow: 0px 2px 6px #00000029;
     padding: 16px;
+    line-height: 24px;
 }
 
 .customer p:nth-child(2) {
@@ -254,4 +254,60 @@
     line-height: 21px;
     font-size: 14px;
     color: #707070;
+}
+
+.contact {
+    background: #FBF2F2;
+}
+
+.contact h2 {
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: bold;
+    color: #650300;
+    margin-bottom: 48px;
+}
+
+.form p {
+    margin-bottom: 24px;
+}
+
+.form {
+    max-width: 636px;
+    margin: 0 auto;
+}
+
+.customerForm input {
+    /*為什麼寬度不能設100%*/
+    width: 636px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.customerForm input:nth-child(8) {
+    height: 136px;
+}
+
+.checkPart {
+    margin-bottom: 48px;
+}
+
+.checkPart input {
+    width: 24px;
+    height: 24px;
+    margin: 0 4px 0 0;
+}
+
+.checkPart p {
+    /*這個margin-bottom沒辦法設0*/
+    margin-bottom: 0;
+    line-height: 24px;
+}
+
+.customerForm p {
+    margin-bottom: 8px;
 }
