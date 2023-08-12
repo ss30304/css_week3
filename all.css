@@ -229,8 +229,29 @@
 
 .fbCards li {
     width: 306px;
+    line-height: 24px;
 }
 
 .fbCards img {
-    width: 306px;
+    width: 100%;
+}
+
+.name {
+    margin-bottom: 8px;
+}
+
+.customer {
+    border: 1px solid #DEE2E6;
+    box-shadow: 0px 2px 6px #00000029;
+    padding: 16px;
+}
+
+.customer p:nth-child(2) {
+    margin-bottom: 72px;
+}
+
+.date {
+    line-height: 21px;
+    font-size: 14px;
+    color: #707070;
 }
