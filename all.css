@@ -503,6 +503,9 @@ textarea {
         font-size: 16px;
         line-height: 24px;
     }
+    .customerForm textarea {
+        box-sizing: border-box;
+    }
     .customerForm,
     .customerForm input,
     .customerForm textarea {
